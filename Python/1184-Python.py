@@ -1,4 +1,4 @@
-Matriz = [0.0] * 12
+Matriz = [[0.0]] * 12
 acao = input()
 for i in range(12):
     Matriz[i] = [0.0] * 12
