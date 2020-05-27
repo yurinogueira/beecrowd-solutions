@@ -1,4 +1,6 @@
 /venv/
 /.idea/
 /out/
-!*.*
+.idea/
+venv/
+out/
