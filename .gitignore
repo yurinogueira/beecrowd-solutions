@@ -7,3 +7,5 @@
 .idea/
 venv/
 out/
+/C/a.out
+C/a.out
