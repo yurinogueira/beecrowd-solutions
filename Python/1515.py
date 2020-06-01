@@ -1,5 +1,6 @@
-n = int(input())
 import sys
+
+n = int(input())
 while not n == 0:
     planeta = ''
     chegou_first = sys.maxsize
