@@ -11,6 +11,8 @@ public class URI_1001 {
         A = Integer.parseInt(scanner.nextLine());
         B = Integer.parseInt(scanner.nextLine());
 
+        scanner.close();
+
         System.out.println("X = " + (A + B));
 
     }

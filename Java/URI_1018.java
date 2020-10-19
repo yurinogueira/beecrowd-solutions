@@ -5,7 +5,9 @@ public class URI_1018 {
 
     public static void main(String[] args) throws IOException {
 
-        final int a = Integer.parseInt(new Scanner(System.in).nextLine());
+        final Scanner scanner = new Scanner(System.in);
+        final int a = Integer.parseInt(scanner.nextLine());
+        scanner.close();
 
         final int n100 = a / 100;
         final int v100 = n100 * 100;

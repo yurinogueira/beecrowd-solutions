@@ -13,6 +13,8 @@ public class URI_1009 {
         S = Double.parseDouble(scanner.nextLine());
         V = Double.parseDouble(scanner.nextLine());
 
+        scanner.close();
+
         System.out.printf("TOTAL = R$ %.2f\n", (((V / 100) * 15) + S));
 
     }

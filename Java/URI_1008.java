@@ -14,6 +14,8 @@ public class URI_1008 {
 
         final double S = Double.parseDouble(scanner.nextLine());
 
+        scanner.close();
+
         System.out.println("NUMBER = " + N);
         System.out.printf("SALARY = U$ %.2f\n", (S * H));
 

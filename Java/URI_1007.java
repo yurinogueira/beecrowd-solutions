@@ -14,6 +14,8 @@ public class URI_1007 {
         C = Integer.parseInt(scanner.nextLine());
         D = Integer.parseInt(scanner.nextLine());
 
+        scanner.close();
+
         System.out.println("DIFERENCA = " + ((A * B) - (C * D)));
 
     }

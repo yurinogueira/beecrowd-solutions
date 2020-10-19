@@ -13,6 +13,8 @@ public class URI_1006 {
         B = Double.parseDouble(scanner.nextLine());
         C = Double.parseDouble(scanner.nextLine());
 
+        scanner.close();
+
         System.out.printf("MEDIA = %.1f\n", (((A * 2) + (B * 3) + (C * 5)) / 10));
 
     }

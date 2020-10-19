@@ -5,7 +5,10 @@ public class URI_2020 {
 
     public static void main(String[] args) throws IOException {
 
-        final int idadedia = Integer.parseInt(new Scanner(System.in).nextLine());
+        final Scanner scanner = new Scanner(System.in);
+        final int idadedia = Integer.parseInt(scanner.nextLine());
+        scanner.close();
+
         final int anos = idadedia / 365;
         final int meses = (idadedia - (anos * 365)) / 30;
         final int dias = idadedia - (anos * 365) - (meses * 30);

@@ -12,3 +12,5 @@ C/cmake-build-debug/
 C/cmake-build-debug/
 /C/a.out
 C/a.out
+.venv/
+.vscode/

@@ -17,6 +17,8 @@ public class URI_2147 {
             System.out.printf("%.2f\n", (len / 100));
         }
 
+        scanner.close();
+
     }
 
 }

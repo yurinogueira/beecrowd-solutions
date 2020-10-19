@@ -10,6 +10,8 @@ public class URI_1014 {
         final int km = Integer.parseInt(scanner.nextLine());
         final double combustivel = Double.parseDouble(scanner.nextLine());
 
+        scanner.close();
+
         System.out.printf("%.3f km/l\n", (km / combustivel));
 
     }

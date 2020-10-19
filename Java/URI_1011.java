@@ -5,7 +5,9 @@ public class URI_1011 {
 
     public static void main(String[] args) throws IOException {
 
-        final int raio = Integer.parseInt(new Scanner(System.in).nextLine());
+        final Scanner scanner = new Scanner(System.in);
+        final int raio = Integer.parseInt(scanner.nextLine());
+        scanner.close();
 
         System.out.printf("VOLUME = %.3f\n", (((4.0/3.0) * 3.14159) * (Math.pow(raio, 3))));
 

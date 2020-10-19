@@ -12,6 +12,8 @@ public class URI_1004 {
         A = Integer.parseInt(scanner.nextLine());
         B = Integer.parseInt(scanner.nextLine());
 
+        scanner.close();
+
         System.out.println("PROD = " + (A * B));
 
     }

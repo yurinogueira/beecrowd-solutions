@@ -10,6 +10,8 @@ public class URI_1015 {
         final String[] lista_1 = scanner.nextLine().split("\\s");
         final String[] lista_2 = scanner.nextLine().split("\\s");
 
+        scanner.close();
+
         final double x1 = Double.parseDouble(lista_1[0]), y1 = Double.parseDouble(lista_1[1]);
         final double x2 = Double.parseDouble(lista_2[0]), y2 = Double.parseDouble(lista_2[1]);
 

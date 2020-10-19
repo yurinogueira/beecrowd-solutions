@@ -5,7 +5,10 @@ public class URI_2021 {
 
     public static void main(String[] args) throws IOException {
 
-        final double money = Double.parseDouble(new Scanner(System.in).nextLine());
+        final Scanner scanner = new Scanner(System.in);
+        final double money = Double.parseDouble(scanner.nextLine());
+        scanner.close();
+
         final int a = (int) money;
         double b = money - a;
 

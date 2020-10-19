@@ -14,6 +14,8 @@ public class URI_2510 {
             System.out.println("Y");
         }
 
+        scanner.close();
+
     }
 
 }

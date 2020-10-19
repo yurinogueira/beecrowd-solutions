@@ -5,8 +5,11 @@ public class URI_1012 {
 
     public static void main(String[] args) throws IOException {
 
-        final String[] lista = new Scanner(System.in).nextLine().split("\\s");
+        final Scanner scanner = new Scanner(System.in);
+        final String[] lista = scanner.nextLine().split("\\s");
 
+        scanner.close();
+        
         double A, B, C;
 
         A = Double.parseDouble(lista[0]);

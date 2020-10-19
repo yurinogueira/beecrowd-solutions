@@ -9,6 +9,8 @@ public class URI_1002 {
         final double n = 3.14159;
         final double raio = Double.parseDouble(scanner.nextLine());
 
+        scanner.close();
+
         System.out.printf("A=%.4f\n", (n * (raio * raio)));
 
     }
