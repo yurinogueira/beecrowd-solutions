@@ -1,16 +1,14 @@
 #include <stdio.h>
 
-int digitos(int num) {
-
-    int digitos = 0;
-    
-    while (num != 0) {
+int digitos(int num, int valor) {
+    if (num != 0) {
         num = num / 10;
-        digitos++;
+        valor++;
     }
-    
-    return digitos;
-
+    if (num != 0) {
+        return digitos(num, valor);
+    }
+    return valor;
 }
 
 int main() {
@@ -29,7 +27,7 @@ int main() {
             int dig6 = dig4 / 10;
             int dig7 = dig6 % 10;
 
-            switch (digitos(i)) {
+            switch (digitos(i, 0)) {
                 case 1:
                     casas++;
                     break;
