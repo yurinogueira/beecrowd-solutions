@@ -14,3 +14,4 @@ C/cmake-build-debug/
 C/a.out
 .venv/
 .vscode/
+*.exe

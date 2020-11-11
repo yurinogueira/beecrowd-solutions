@@ -7,7 +7,8 @@ public class URI_1004 {
 
         final Scanner scanner = new Scanner(System.in);
 
-        int A, B;
+        int A;
+        int B;
 
         A = Integer.parseInt(scanner.nextLine());
         B = Integer.parseInt(scanner.nextLine());
@@ -15,6 +16,8 @@ public class URI_1004 {
         scanner.close();
 
         System.out.println("PROD = " + (A * B));
+
+        scanner.close();
 
     }
 
