@@ -15,3 +15,5 @@ C/a.out
 .venv/
 .vscode/
 *.exe
+/CMakeLists.txt
+/cmake-build-debug/
