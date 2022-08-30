@@ -1,4 +1,5 @@
 import Control.Monad (unless)
+
 readInts :: IO [Int]
 readInts = fmap (map read.words) getLine
 
